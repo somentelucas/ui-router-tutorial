@@ -1,23 +1,24 @@
 <h1>To Do List</h1>
 
+
+<h2>Tasks</h2>
 <ul>
-    <li>
-        <a href="#" ui-sref="workspace.to_do.task({taskID: 1})">Task 1</a>
-    </li>
-    <li>
-        <a href="#" ui-sref="workspace.to_do.task({taskID: 2})">Task 2</a>
-    </li>
+	<li>
+		<a ui-sref="workspace.to_do.task({taskID: 1})">Task 1</a>
+	</li>
+	<li>
+		<a ui-sref="workspace.to_do.task({taskID: 2})">Task 2</a>
+	</li>
 </ul>
 
-<br>
-
+<h2>Events</h2>
 <ul>
-    <li>
-        <a href="#" ui-sref="workspace.to_do.event({eventID: 1})">Event 1</a>
-    </li>
-    <li>
-        <a href="#" ui-sref="workspace.to_do.event({eventID: 2})">Event 2</a>
-    </li>
+	<li>
+		<a ui-sref="workspace.to_do.event({eventID: 1})">Event 1</a>
+	</li>
+	<li>
+		<a ui-sref="workspace.to_do.event({eventID: 2})">Event 2</a>
+	</li>
 </ul>
 
 <div ui-view="to_do"></div>
